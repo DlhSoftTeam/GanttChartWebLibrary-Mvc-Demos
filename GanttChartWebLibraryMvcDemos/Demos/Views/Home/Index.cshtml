@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron">
+    <h1>Demos</h1>
+    <p class="lead">
+        for MVC extensions from <a href="http://DlhSoft.com/GCWL" target="_blank">DlhSoft Gantt Chart Web Library</a><br/>
+        (built with <a href="http://DlhSoft.com/GCHL" target="_blank">Hyper Library</a>)
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>GanttChart.Mvc.Extensions</h2>
+        <ul>
+            <li>@Html.ActionLink("GanttChartView", "GanttChartView", "GanttChartComponents")</li>
+            <li>@Html.ActionLink("ScheduleChartView", "ScheduleChartView", "GanttChartComponents")</li>
+            <li>@Html.ActionLink("LoadChartView", "LoadChartView", "GanttChartComponents")</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h2>PertChart.Mvc.Extensions</h2>
+        <ul>
+            <li>@Html.ActionLink("PertChartView", "PertChartView", "PertChartComponents")</li>
+            <li>@Html.ActionLink("NetworkDiagramView", "NetworkDiagramView", "PertChartComponents")</li>
+        </ul>
+    </div>
+</div>

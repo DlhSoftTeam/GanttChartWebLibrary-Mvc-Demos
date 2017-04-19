@@ -1,0 +1,19 @@
+﻿@using DlhSoft.Web.Mvc;
+@{
+    ViewBag.Title = "LoadChartView";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>LoadChartView</h2>
+        @(Html.LoadChartView(component =>
+        {
+            // Settings.
+            component.Columns[(int)ColumnType.Content].Header = "Employee";
+            // CSS classes.
+            component.NormalAllocationBarCssClass = "dslc-allocation-bar";
+            component.UnderAllocationBarCssClass = "dslc-allocation-bar";
+            component.OverAllocationBarCssClass = "dslc-over-allocation-bar";
+        }))
+    </div>
+</div>

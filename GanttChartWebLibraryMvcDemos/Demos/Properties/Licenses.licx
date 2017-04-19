@@ -1,0 +1,5 @@
+﻿DlhSoft.Web.Mvc.GanttChartView, DlhSoft.ProjectData.GanttChart.Mvc.Extensions
+DlhSoft.Web.Mvc.ScheduleChartView, DlhSoft.ProjectData.GanttChart.Mvc.Extensions
+DlhSoft.Web.Mvc.LoadChartView, DlhSoft.ProjectData.GanttChart.Mvc.Extensions
+DlhSoft.Web.Mvc.Pert.PertChartView, DlhSoft.ProjectData.PertChart.Mvc.Extensions
+DlhSoft.Web.Mvc.Pert.NetworkDiagramView, DlhSoft.ProjectData.PertChart.Mvc.Extensions
