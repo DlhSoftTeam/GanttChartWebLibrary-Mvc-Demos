@@ -1,0 +1,19 @@
+﻿@using DlhSoft.Web.Mvc;
+@{
+    ViewBag.Title = "ScheduleChartView";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>ScheduleChartView</h2>
+        @(Html.ScheduleChartView(component =>
+        {
+            // Settings.
+            component.Columns[(int)ColumnType.Content].Header = "Employee";
+            // CSS classes.
+            component.StandardBarCssClass = "dsgc-standard-bar";
+            // Item change actions set up (posts).
+            component.ItemChangeAction = "UpdateScheduleChartItem";
+        }))
+    </div>
+</div>
