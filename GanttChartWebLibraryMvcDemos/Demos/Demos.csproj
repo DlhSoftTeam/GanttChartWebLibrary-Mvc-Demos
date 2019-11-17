@@ -27,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,17 +48,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DlhSoft.ProjectData.GanttChart.ASP.Controls, Version=5.2.8.4, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
-      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.2.9.5\lib\net452\DlhSoft.ProjectData.GanttChart.ASP.Controls.dll</HintPath>
+    <Reference Include="DlhSoft.ProjectData.GanttChart.ASP.Controls, Version=5.2.11.6, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
+      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.3.2.5\lib\net452\DlhSoft.ProjectData.GanttChart.ASP.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="DlhSoft.ProjectData.GanttChart.Mvc.Extensions, Version=5.3.0.0, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
-      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.2.9.5\lib\net452\DlhSoft.ProjectData.GanttChart.Mvc.Extensions.dll</HintPath>
+    <Reference Include="DlhSoft.ProjectData.GanttChart.Mvc.Extensions, Version=5.3.1.1, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
+      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.3.2.5\lib\net452\DlhSoft.ProjectData.GanttChart.Mvc.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="DlhSoft.ProjectData.PertChart.ASP.Controls, Version=5.2.8.3, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
-      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.2.9.5\lib\net452\DlhSoft.ProjectData.PertChart.ASP.Controls.dll</HintPath>
+    <Reference Include="DlhSoft.ProjectData.PertChart.ASP.Controls, Version=5.2.9.0, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
+      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.3.2.5\lib\net452\DlhSoft.ProjectData.PertChart.ASP.Controls.dll</HintPath>
     </Reference>
     <Reference Include="DlhSoft.ProjectData.PertChart.Mvc.Extensions, Version=5.3.0.0, Culture=neutral, PublicKeyToken=6071b28da0134838, processorArchitecture=MSIL">
-      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.2.9.5\lib\net452\DlhSoft.ProjectData.PertChart.Mvc.Extensions.dll</HintPath>
+      <HintPath>..\packages\DlhSoft.GanttChartWebLibrary.5.3.2.5\lib\net452\DlhSoft.ProjectData.PertChart.Mvc.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>

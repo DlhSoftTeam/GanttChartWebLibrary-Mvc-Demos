@@ -33,7 +33,8 @@ namespace MainFeatures.Controllers
 
         public ActionResult UpdateGanttChartItem(GanttChartItem item)
         {
-            // Placeholder for saving changes to database.
+            // Placeholder to handle changes, e.g. save them to the data store.
+            // Note: Characters '<' and '>' are automatically replaced on client side with HTML entities '&lt;' and '&gt;' within text content (e.g. item.Content) to pass security gates upon posting.
             Debug.WriteLine($"Item {item.Content} at index {item.ItemIndex} has been updated.");
             return Ok();
         }
@@ -73,7 +74,8 @@ namespace MainFeatures.Controllers
 
         public ActionResult UpdateScheduleChartItem(ScheduleChartItem item)
         {
-            // Placeholder for saving changes to database.
+            // Placeholder to handle changes, e.g. save them to the data store.
+            // Note: Characters '<' and '>' are automatically replaced on client side with HTML entities '&lt;' and '&gt;' within text content (e.g. item.Content) to pass security gates upon posting.
             Debug.WriteLine($"Item {item.Content} at index {item.ItemIndex} has been updated.");
             return Ok();
         }
