@@ -28,6 +28,10 @@ textarea {
     fill: #0094ff;
     stroke: #0094ff;
 }
+.dsgc-standard-completed-bar {
+    fill: black;
+    stroke: black;
+}
 .dslc-allocation-bar {
     fill: #0094ff;
 }
